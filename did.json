@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+    ],
+    "id": "did:web:raw.githubusercontent.com:caparicio-esd:gaiax-did:main",
+    "verificationMethod": [
+        {
+            "id": "did:web:raw.githubusercontent.com:caparicio-esd:gaiax-did:main#1",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "RSA",
+                "n": "l0gz8taVk3E5aS2bT3y3hyyO57b_0k_PuxPADvrRMCxzuP8GVRj5s9ctdfzrxsu5oTjQVU03p6MmnLs7D7xFigwTyFsF5hPnGXzEbalLN6foMTabu1L-_1_ETctKG2X7GUbuvR2toxXdGQ7kBCvYUWlVdMbuP8eAFvbeB5QJYpfe5dnACCozCQ7u5UPRV2ZEw2YVj4EgDCeFITkp2NbzxAnrWwnpdHupUJ9iCB8o6uPUcXQ1iblIfaAfrVAdqRtX_ykEVbZY89ExibxmKGRWsD4LXp2wTgwyNbnQTasxhIEC2gYopEXeNHyoeCYiaAIqc_ns9BtIDuunH6PLeDgrVQ",
+                "e": "AQAB",
+                "alg": "RS256",
+                "x5u": "https://raw.githubusercontent.com/{GitHub Profile Name}/{Repository}/{branch}/{fileName}.pem"
+            }
+        }
+    ],
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:caparicio-esd:gaiax-did:main#1"
+    ]
+}
